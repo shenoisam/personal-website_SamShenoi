@@ -2,29 +2,31 @@ body
 {
   background: #888;
 }
-img
-{
-  width: 25%;
-  height: 25%;
-  padding: 15px;
+
+
+h1{
+  height: auto;
+  width: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: green;
 }
-.potato li{
-  /*can assign fixed widths with inline block*/
+ul li {
   display: inline-block;
   background: #999;
   color: white;
   list-style-type: none;
-  /*Adds padding to the inside of the thing instead of outside */
-  padding: 5px 5px;
-  background-size: 27%;
+
 }
-.col{
-  background: #333;
-  float: left;
-  color: white;
-  border-radius: 5px;
-  padding: .5%;
-  margin: .5%;
-  width: 31%;
+img{
+  height: auto;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+}
+.onPage{
+    clear:both;
 
 }
