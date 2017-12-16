@@ -12,6 +12,7 @@ function displayDrop()
     dropDownMenu.className = "hide";
   }
   else if(dropDownMenu.className == "hide") {
-    dropDownMenu.className = "appear";
-  }
+     dropDownMenu.className = "appear";
+   }
+
 }
