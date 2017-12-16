@@ -1,17 +1,17 @@
 
 var elementUsed = document.getElementById("dropdown");
-//elementUsed.addEventListener('click',displayDrop());
+elementUsed.addEventListener("click",displayDrop);
 
 function displayDrop()
 {
   var dropDownMenu = document.getElementById("dd");
   var className = dropDownMenu.className;
 
-  if(className == 'appear')
+  if(dropDownMenu.className == "appear")
   {
     dropDownMenu.className = "hide";
   }
-  else {
+  else if(dropDownMenu.className == "hide") {
     dropDownMenu.className = "appear";
   }
 }

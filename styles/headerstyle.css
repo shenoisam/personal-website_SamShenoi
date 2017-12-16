@@ -47,7 +47,12 @@ nav ul li a
 .hide{
     display: none;
 }
-.appear
-{
-  display: flex;
+.appear{
+  display:block;
+}
+#dd{
+  background: black;
+}
+.sam{
+  background: black;
 }
