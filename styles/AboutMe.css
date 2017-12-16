@@ -6,27 +6,36 @@ body
 
 h1{
   height: auto;
-  width: auto;
+  width: 125%;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
-  background: green;
-}
-ul li {
-  display: inline-block;
-  background: #999;
-  color: white;
-  list-style-type: none;
 
 }
+
 img{
   height: auto;
   width: auto;
-  margin: 0px;
-  padding: 0px;
+
+  padding: 5px;
+  background: #666;
+  margin-left: 5%;
 }
-.onPage{
-    clear:both;
+
+.letstry{
+  margin-bottom: -2%
+}
+p{
+  height: auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: right;
+  justify-content: right;
+  margin-bottom: -25%;
+  margin-top: 2.5%;
+  margin-left: 37%;
+  font-family: 'Inconsolata', monospace;
 
 }
