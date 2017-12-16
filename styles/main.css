@@ -2,7 +2,7 @@
 .name{
   color: white;
   font-size: 75px;
-  font: Arial;
+  font-family: 'Alegreya', serif;
   margin-left:auto;
   margin-right:auto;
   width:40%;
@@ -57,4 +57,7 @@ nav ul li a
 }
 .binf{
   color: blue;
+}
+.sub{
+    display: none;
 }
