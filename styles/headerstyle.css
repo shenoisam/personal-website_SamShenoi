@@ -1,0 +1,52 @@
+.mid{
+  color: rgb(50,255,50);
+  margin-left:auto;
+  margin-right:auto;
+  width:37%;
+  font-size: 25px
+}
+header{
+  background:black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+nav ul li{
+  /*can assign fixed widths with inline block*/
+  display: inline-block;
+  background: #999;
+  color: white;
+  list-style-type: none;
+  /*Adds padding to the inside of the thing instead of outside */
+  padding: 5px 15px;
+}
+nav ul li a
+{
+  color: white;
+  font-family: 'Pangolin', cursive;
+}
+
+.row{
+  clear:both;
+}
+/*Creates fake element after element and can style it */
+.row:after{
+}
+
+.col{
+  background: #333;
+  float: left;
+  color: white;
+  border-radius: 5px;
+  padding: .5%;
+  margin: .5%;
+  width: 31%;
+
+}
+.hide{
+    display: none;
+}
+.appear
+{
+  display: flex;
+}
