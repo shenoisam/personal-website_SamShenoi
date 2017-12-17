@@ -3,6 +3,10 @@
   list-style-type: none;
   background: #333;
   width: 50%;
+  padding-bottom: 5%;
+  margin-left: 25%;
+  margin-top: 2.5%;
+
 
 }
 .contactField li{
@@ -15,7 +19,7 @@
 }
 #Message
 {
-  width: 85%;
+  width: 85%
 }
 h1{
   position: relative;
@@ -23,4 +27,8 @@ h1{
   justify-content: center;
   font-family: 'Alegreya', serif;
   margin-left: 30%;
+}
+button{
+  width: 10%;
+  background-color: #999;
 }
