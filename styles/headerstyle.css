@@ -1,6 +1,6 @@
 
 header{
-  background:black;
+  background:#021C1E;
   color: white;
   padding: 30px 30px 50px 30px;
 }
@@ -16,7 +16,7 @@ nav ul li{
 }
 nav ul li a
 {
-  color: white;
+  color: #6FB98F;
   font-family: 'Pangolin', cursive;
 }
 
@@ -28,9 +28,9 @@ nav ul li a
 }
 
 .col{
-  background: #333;
+  background: #004445;
   float: left;
-  color: white;
+  color: #6FB98F;
   border-radius: 5px;
   padding: .5%;
   margin: .5%;
@@ -52,5 +52,5 @@ nav ul li a
 }
 body
 {
-  background: #6FB98F;
+  background: #494E6B;
 }
