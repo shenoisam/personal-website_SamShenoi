@@ -7,14 +7,19 @@ p{
   justify-content: center;
 }
 .name{
-  color: white;
+  color: #021C1E;
   font-size: 75px;
   font-family: 'Alegreya', serif;
-
   margin-bottom: 0;
 
 }
-
 .binf{
-  color: rgb(255,215,0);
+  color: #004445;
+}
+.mid{
+  color: #2C7873;
+  margin-left:auto;
+  margin-right:auto;
+  width:37%;
+  font-size: 25px
 }
