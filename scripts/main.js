@@ -24,11 +24,13 @@ function sendMessage()
 {
   var name = document.getElementById("First Name")
   var lastName = document.getElementById("Last Name");
-  name = name.value+ " " + lastName.value;
-  var email = document.getElementById("Email Address").value;
+  var subject = 'Inquiry -'+name.value+ " " + lastName.value;
+
   var message = document.getElementById("Message").value;
 
-  window.open('mailto:shenoisam@gmail.com?');
+  var mailtoLink = 'mailto:shenoisam@gmail.com' +'?subject='+subject +'&body='+message;
+  window.open(mailtoLink);
+
 
 
 
