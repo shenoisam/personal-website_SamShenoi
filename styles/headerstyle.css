@@ -1,6 +1,6 @@
 
 header{
-  background:#192231;
+  background:#98878F;
   color: white;
   padding: 30px 30px 50px 30px;
 }
@@ -28,7 +28,7 @@ nav ul li a
 }
 
 .col{
-  background: #98878F;
+  background: #192231;
   float: left;
   color: #6FB98F;
   border-radius: 5px;
@@ -52,5 +52,5 @@ nav ul li a
 }
 body
 {
-  background: #494E6B;
+  background: #192231;
 }
