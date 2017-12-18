@@ -1,7 +1,7 @@
 .contactField{
 
   list-style-type: none;
-  background: #333;
+  background: #98878F;
   width: 50%;
   padding-bottom: 5%;
   margin-left: 25%;
@@ -11,7 +11,7 @@
 }
 .contactField li{
   padding: 5px;
-  color:#999;
+  color: #192231;
 }
 
 .contactField li input{

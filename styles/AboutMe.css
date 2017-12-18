@@ -7,6 +7,7 @@ h1{
   position: relative;
   align-items: center;
   justify-content: center;
+  color:#494E6B
 
 }
 
@@ -24,14 +25,15 @@ img{
 }
 p{
   height: auto;
-  width: 100%;
+  width: 60%;
   display: flex;
   position: relative;
   align-items: right;
   justify-content: right;
   margin-bottom: -25%;
   margin-top: 2.5%;
-  margin-left: 37%;
+  margin-left: 40%;
   font-family: 'Inconsolata', monospace;
+  color:#98878F
 
 }
