@@ -16,3 +16,20 @@ function displayDrop()
    }
 
 }
+
+var sendMessageButton = document.getElementById("send");
+sendMessageButton.addEventListener("click",sendMessage)
+
+function sendMessage()
+{
+  var name = document.getElementById("First Name")
+  var lastName = document.getElementById("Last Name");
+  name = name.value+ " " + lastName.value;
+  var email = document.getElementById("Email Address").value;
+  var message = document.getElementById("Message").value;
+
+  window.open('mailto:shenoisam@gmail.com?');
+
+
+
+}
