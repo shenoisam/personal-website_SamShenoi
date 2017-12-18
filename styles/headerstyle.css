@@ -1,6 +1,6 @@
 
 header{
-  background:#021C1E;
+  background:#192231;
   color: white;
   padding: 30px 30px 50px 30px;
 }
@@ -16,7 +16,7 @@ nav ul li{
 }
 nav ul li a
 {
-  color: #6FB98F;
+  color: #494E6B;
   font-family: 'Pangolin', cursive;
 }
 
@@ -28,7 +28,7 @@ nav ul li a
 }
 
 .col{
-  background: #004445;
+  background: #98878F;
   float: left;
   color: #6FB98F;
   border-radius: 5px;
@@ -45,7 +45,7 @@ nav ul li a
   display:block;
 }
 #dd{
-  background: black;
+  background: #192231;
 }
 .sam{
   background: black;
