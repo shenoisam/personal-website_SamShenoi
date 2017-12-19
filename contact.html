@@ -12,12 +12,7 @@
         <ul class="navBar">
           <li class="col"><a href="index.html">Home</a></li>
           <li class="col"><a href="AboutMe.html">About Me</a></li>
-          <li class="col" id="dropdown"><a "#">Projects</a>
-             <ul id="dd" class="hide">
-               <li><a href="#">Biology</li><br></br>
-               <li><a href="https://github.com/shenoisam">Computer Science</li>
-             </ul>
-          </li>
+          <li class="col" id="dropdown"><a href="https://github.com/shenoisam">Projects</a></li>
           <li class="col"><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -28,14 +23,26 @@
       <li>First Name</li>
       <li><input id="First Name" type="text"></li>
       <li>Last Name</li>
-      <li><input id="Last Name" type="text"></li>  
+      <li><input id="Last Name" type="text"></li>
       <li>Message</li>
       <li><textarea cols="40" rows="5" id="Message" type="text"></textarea></li>
       <li><button id="send">Send</button></li>
 
     </ul>
 
-
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyACZgaOV92qAMfkPNCHQaiZDK9JR4L80IY",
+        authDomain: "personalwebsite-447e9.firebaseapp.com",
+        databaseURL: "https://personalwebsite-447e9.firebaseio.com",
+        projectId: "personalwebsite-447e9",
+        storageBucket: "",
+        messagingSenderId: "521668797275"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
