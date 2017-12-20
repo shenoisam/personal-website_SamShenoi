@@ -1,5 +1,5 @@
 
-var elementUsed = document.getElementById("dropdown");
+var elementUsed = document.getElementById("headerA");
 elementUsed.addEventListener("click",displayDrop);
 
 function displayDrop()
@@ -16,7 +16,6 @@ function displayDrop()
    }
 
 }
-
 var sendMessageButton = document.getElementById("send");
 sendMessageButton.addEventListener("click",sendMessage)
 
