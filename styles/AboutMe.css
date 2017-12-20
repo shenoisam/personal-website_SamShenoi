@@ -2,12 +2,11 @@
 
 h1{
   height: auto;
-  width: 125%;
+  width: 40%;
   display: flex;
   position: relative;
-  align-items: center;
-  justify-content: center;
-  color:#494E6B
+  color:#494E6B;
+  margin-left: 60%;
 
 }
 
