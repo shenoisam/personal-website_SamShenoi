@@ -3,6 +3,7 @@
 h1{
   height: auto;
   width: 40%;
+  margin-left: 60%;
   display: flex;
   position: relative;
   color:#494E6B;
