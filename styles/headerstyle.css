@@ -1,6 +1,6 @@
 
 header{
-  background:#98878F;
+  background:#494E6B;
   color: white;
   padding: 2% 2% 9% 2%;
 }
@@ -27,17 +27,6 @@ nav ul li a
 .navBar:after{
 }
 
-.col{
-  background: #494E6B;
-  float: left;
-  color: #6FB98F;
-  border-radius: 5px;
-  padding: .5%;
-  margin: .5%;
-  width: 23%;
-  align-items: center;
-
-}
 .hide{
     display: none;
 }
@@ -52,11 +41,9 @@ nav ul li a
 }
 body
 {
-  background: #192231;
 }
-h1{
-  margin-left: 0%;
-  color:#494E6B;
-  margin-bottom: 0%;
-  margin-top: 0%;
+.name{
+  color:white;
+  padding-right: 1%;
+  padding-bottom: 1%; 
 }

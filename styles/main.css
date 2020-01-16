@@ -1,4 +1,4 @@
-p{
+.para{
   margin-left:25%;
   margin-right:25%;
   width: 50%;
@@ -7,7 +7,7 @@ p{
   justify-content: center;
 }
 .name{
-  color: #98878F ;
+  color:;
   font-size: 75px;
   font-family: 'Alegreya', serif;
   margin-bottom: 0;
@@ -25,4 +25,16 @@ p{
 }
 #Test{
   color:white;
+}
+.sectionDiv{
+   padding: 2%;
+   border: 2px solid black 
+}
+.vertLine{
+   border-left: 2px solid black; 
+   padding-top: 2%; 
+}
+.vertLine a{
+  color: white; 
+
 }
