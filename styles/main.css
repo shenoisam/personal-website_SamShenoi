@@ -28,7 +28,10 @@
 }
 .sectionDiv{
    padding: 2%;
-   border: 2px solid black 
+   border: 2px solid #494E6B;
+   margin: 1%; 
+   background-color: #f6f6f6;
+
 }
 .vertLine{
    border-left: 2px solid black; 
@@ -37,4 +40,30 @@
 .vertLine a{
   color: white; 
 
+}
+.centerBox{
+  text-align: center;
+  padding: .5%;
+  border: 2px solid #494E6B;
+  width: 25%; 
+  margin-left: 35%;
+  margin-bottom: 1%; 
+  background-color: white;
+}
+.imgz{
+  
+
+  height: 1%;
+}
+.right{
+  float: right 
+}
+.pp{
+  background-color: yellow;
+  width: 100%; 
+  
+}
+
+.black{
+  color: black;
 }
