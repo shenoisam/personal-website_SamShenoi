@@ -1,11 +1,12 @@
 
 
 console.log("here")
-  $.get( "https://api.github.com/users/shenoisam/repos?per_page=100", function( data ) {
+
+  $.get( "https://cors-anywhere.herokuapp.com/https://api.github.com/users/shenoisam/repos?per_page=100").done( function( data ) {
     console.log(data)
     var div = document.getElementById("projs")
     data.forEach(element => {
-      $.get("https://api.github.com/repos/shenoisam/" + element["name"], function(d){
+      $.get("https://cors-anywhere.herokuapp.com/https://api.github.com/repos/shenoisam/" + element["name"], function(d){
      
         div.append(createDiv(d["name"], d["description"],d["html_url"] ))
       })
