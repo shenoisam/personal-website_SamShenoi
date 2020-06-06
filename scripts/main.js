@@ -2,7 +2,7 @@
 
 console.log("here")
 
-  $.get( "https://cors-anywhere.herokuapp.com/https://api.github.com/users/shenoisam/repos?per_page=100").done( function( data ) {
+  $.get( "https://cors-anywhere.herokuapp.com/https://api.github.com/users/shenoisam/repos?per_page=100&sort=created").done( function( data ) {
     console.log(data)
     var div = document.getElementById("projs")
     data.forEach(element => {
